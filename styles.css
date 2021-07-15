@@ -1,19 +1,25 @@
-.topNav {
-    padding: 1em;;
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+#myHeader {
+    padding: 1em;
     background: black;
     color: white;
     text-align: center;
-    float: center;
-    vertical-align: middle;
 
-    width: 100vw;
+    margin-right: 11em;
+
+    z-index: 2;
+
+    width: 95vw;
 }
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
-    vertical-align: middle;
-    width: 100vw;
+    width: 90vw;
   }
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
@@ -28,14 +34,18 @@
     justify-content: center;
     align-items: center;
     align-content: space-around;
+
+
+    vertical-align: middle;
+
 }
 .about, .services, .testimonials {
     border: 1px solid black;
     flex-grow: 1;
 
+    text-align: center;
+
+
     height: 45vh;
-    width: 90vw;
+    width: 91vw;
 }
-.content {
-    padding: 1em;;
-  }
