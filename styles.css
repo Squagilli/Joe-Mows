@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body {
-    background-color: blue;
+    background-color: white;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 #myHeader {
@@ -34,7 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: space-around;
-
+    padding: 1em;
 
     vertical-align: middle;
 
@@ -46,6 +49,53 @@ body {
     text-align: center;
 
 
-    height: 45vh;
+    
     width: 91vw;
+    height: auto;
+}
+.about {
+    padding-top: 2em;
+    text-align: center;
+}
+.about-content {
+    padding: 1em;
+    font-size: 25px;
+}
+.lawn-mow {
+    width: 80vw;
+    height: auto;
+
+    margin-top: 1em;
+}
+.dump {
+    width: 80vw;
+    height: auto;
+    margin-top: 1em;
+}
+.clean {
+    width: 80vw;
+    height: auto;
+    margin-top: 1em;
+}
+.other {
+    width: 80vw;
+    height: auto;
+    margin-top: 1em;
+}
+.serviceExample {
+    padding: 1em;
+    width: 80vw;
+    height: auto;
+
+    font-size: 20px;
+}
+#footContact {
+    text-align: center;
+}
+button {
+    margin: 1em;
+    padding: 0.5em;
+}
+.want-other {
+    margin: 2em;
 }
