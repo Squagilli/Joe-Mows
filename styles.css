@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
-    background-color: white;
+    background-color: #5CDB95;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
 #myHeader {
+    display: flex;
     padding: 1em;
-    background: black;
-    color: white;
-    text-align: center;
+    background: #8EE4AF;
+    color: black;
+    text-align: left;
+    align-items: flex-start;
 
     margin-right: 11em;
 
     z-index: 2;
 
     width: 95vw;
+    height: 3vh;
 }
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -39,41 +42,48 @@ body {
     align-content: space-around;
     padding: 1em;
 
+    color: #05386B;
+
     vertical-align: middle;
 
 }
 .about, .services, .testimonials {
-    border: 1px solid black;
     flex-grow: 1;
 
     text-align: center;
+
+    color: #05386B;
 
 
     
     width: 91vw;
     height: auto;
 }
+.main-title {
+    font-size: 30px;
+}
 .about {
     padding-top: 2em;
     text-align: center;
+
 }
 .about-content {
     padding: 1em;
-    font-size: 25px;
+    font-size: 19px;
 }
 .lawn-mow {
-    width: 80vw;
+    width: 50vw;
     height: auto;
 
     margin-top: 1em;
 }
 .dump {
-    width: 80vw;
+    width: 45vw;
     height: auto;
     margin-top: 1em;
 }
 .clean {
-    width: 80vw;
+    width: 50vw;
     height: auto;
     margin-top: 1em;
 }
@@ -82,20 +92,77 @@ body {
     height: auto;
     margin-top: 1em;
 }
+.misc {
+    width: 45vw;
+    height: auto;
+    margin-top: 1em;
+}
 .serviceExample {
     padding: 1em;
+    margin-bottom: 1em;
     width: 80vw;
     height: auto;
 
     font-size: 20px;
+    border: 3px solid #05386B;
+    border-radius: 25px;
+    background-color: #EDF5E1;
 }
-#footContact {
-    text-align: center;
+footer {
+    display: flex;
+    justify-content: center;
+}
+.footContact {
+    
+    color: #05386B;
 }
 button {
     margin: 1em;
     padding: 0.5em;
+
+    color: #05386B;
 }
 .want-other {
     margin: 2em;
+}
+
+.logo-mow {
+    width: 11vw;
+    height: auto;
+    padding-right: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-radius: 25px;
+    color: white;
+    align-self: center;
+
+    z-index: 2;
+}
+
+.nav-title {
+    align-self: center;
+    padding-left: 0.1em;
+    width: 10vw;
+    flex-grow: 2;
+    font-size: 20px;
+}
+
+.nav-phone {
+    padding: 1em;
+    align-self: center;
+    width: 7vw;
+    height: auto;
+}
+.nav-email {
+    width: 7vw;
+    height: auto;
+    padding: 1em;
+    align-self: center;
+}
+.nav-burger {
+    width: 8vw;
+    height: auto;
+    padding: 1em;
+    padding-left: 1em;
+    align-self: center;
 }
